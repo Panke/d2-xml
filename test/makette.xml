@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<makette>
+
+<tool name="cv2pdb" path="C:/bin86/VisualD/cv2pdb/cv2pdb" />
+<tool name="dmd2" path="[D2LOC]/[osbin]/bin/dmd">
+    <option cmd="-d -I[D2LOC]/src/druntime/src"/>
+	 <option cmd="-I[SVN]/aa/trunk"/>
+	 <option cmd="-I[srcdir]"/>
+</tool>
+
+<tool name="dmd1" path="[D1LOC]/[osbin]/bin/dmd"/>
+<tool name="dmd-tango" path="[TANGOD1]/bin/dmd"/>
+
+<init>
+    <set name="moddep" value="module_dep.txt"/>
+    <set name="debug" value="[WKDIR]/[project]/[program]-d" vtype="syspath"/>
+    <set name="release" value="[WKDIR]/[project]/[osbin]/[program]" vtype="syspath"/>
+    <set name="obj-r" value="[WKDIR]/[project]/obj-r" vtype="syspath"/>
+    <set name="obj-d" value="[WKDIR]/[project]/obj-d" vtype="syspath"/>
+	<switch name="platform">
+	<case value="LINUX">
+        <set name="WKDIR" value="[HOME]/dsource/xmlp/trunk/test" vtype="syspath"/>
+		<set name="osbin" value="linux"/>
+		<set name="bin.ext" value = "" />
+		<set name="OSLIB" value="" />
+		<set name="D2LOC" value="[HOME]/D/dmd2" vtype="syspath" />
+        <set name="srcdir" value = "[HOME]/dsource/xmlp/trunk" vtype="syspath"/>
+	</case>
+	<case value="WINDOWS">
+        <set name="WKDIR" value="[srcdir]/test" vtype="syspath"/>
+        <set name="HOME" value="C:" vtype="syspath"/>
+        <set name="D2LOC" value = "C:\DM\dmd2" vtype="syspath"/>
+        <set name="MYBIN" value = "C:\DM\mybin" vtype="syspath"/>
+		<set name="SVN"   value = "F:\svn" vtype="syspath" />
+		
+        <set name="srcdir" value = "[SVN]\xmlp" vtype="syspath"/>
+
+		<set name="bin.ext" value = ".exe" />
+		<set name="osbin" value="windows"/>
+		<set name="OSLIB" value="gdi32.lib uuid.lib ole32.lib advapi32.lib kernel32.lib user32.lib comctl32.lib" />
+		<set name="~" value="C:\D"/>
+	</case>
+	</switch>
+    <echo> home directory is [HOME]</echo>
+    <echo> srcdir is [srcdir]</echo>
+    <echo> D2LOC is [D2LOC]</echo>
+    <echo> OS is [osbin]</echo>
+</init>
+
+<recipe name="D2-debug-auto">
+	<set name="binary" value="[WKDIR]/[project]/[program]-d" vtype="syspath"/>
+	<set name="objd" value="[WKDIR]/[project]/obj-d" vtype="syspath"/>
+	<echo>object directory is [objd]</echo>
+
+	<rmdir path="[objd]" />
+    <chdir path="[srcdir]"/>
+    <!-- compile main to get module dependencies -->
+    <task tool="dmd2">
+		<option cmd="-debug -g -c" />
+		<option cmd="-of[binary]"/>
+		<option cmd="-od[objd]"/>
+		<option cmd="-deps=[moddep]"/>
+		<option cmd="[main]" />
+    </task>
+
+    <!-- analyse the dependency list to get sourcelist -->
+    <module-dep name="sourcelist">
+        <source path="[srcdir]/[moddep]" />
+        <!--<exclude-module starts-with="std"/>--> <!-- ignore modules starting with -->
+        <exclude-module starts-with="object"/> <!-- ignore modules starting with -->
+        <exclude-file ext="di"/> <!-- ignore interface files -->
+        <exclude-file contains="\src\phobos\"/> <!-- ignore interface files -->
+        <exclude-file contains="\src\druntime\src\"/> <!-- ignore interface files -->
+        <exclude-file contains="\src\druntime\import\"/> <!-- ignore interface files -->
+    </module-dep>
+
+    <echo>Sources: [sourcelist] </echo>
+    <!-- list modules that have changed -->
+    <newer depends="[sourcelist]" list="changed">
+        <target path="[binary][bin.ext]" />
+        <target path="[binary]-vs[bin.ext]" />
+        <target path="[binary]-vs.pdb" />
+    </newer>
+
+    <!--<stack-dump/><echo> newer:  [changed] </echo>-->
+
+	<rm  path="[binary][bin.ext]"/>
+	<rm  path="[binary]-vs[bin.ext]"/>
+	<rm  path="[binary]-vs.pdb"/>
+	<task tool="dmd2">
+		<option cmd="-debug -g -unittest" />
+		<option cmd="-of[binary]"/>
+		<option cmd="-od[objd]"/>
+		<option cmd="[sourcelist]" />
+		<!--<option cmd="[extra]" />-->
+		<option cmd="[OSLIB]"/>
+	</task>
+	<set name="mycmd" value="-D2 [binary][bin.ext] [binary]-vs[bin.ext] [binary]-vs.pdb" />
+	<echo>[mycmd]</echo>
+	<task tool="cv2pdb">
+		<option cmd="[mycmd]" />
+	</task>
+</recipe>
+
+<target name="all">
+	<set name="program" value="conformtest"/>
+	<set name="project" value="build"/>
+	<set name="main" value="[srcdir]/test/Conformance.d" />
+
+	<run recipe="D2-debug-auto"/>
+
+	<!-- echo
+		Output the evaluated text to stdout
+	-->
+	<echo>completed [target]</echo>
+</target>
+
+
+</makette>
+

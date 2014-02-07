@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<makette>
+
+<!-- Do not use ids with a dash '-', use underscore -->
+
+<toolsets>
+<toolset id="Windows_dmd" >
+    <tool id="dmd" cmd="dmd">
+    </tool>
+    <tool id="lib" cmd="lib -c -p256 $(lib) @$(lib-input)" >
+        <option id="output-ext" value=".a" />
+    </tool>
+</toolset>
+
+<toolset id="linux_dmd" >
+    <tool id="compiler">
+        <set id="import_path" value="-I$(val)"/>
+        <set id="output_file" value="-of$(val)" />
+        <set id="no_link" value="-c" />
+        <set id="deps_file" value="-deps=$(val)" />
+        <set id="syntax">dmd $(output) $(import_paths) $(flags) $(inputs)</set>
+    </tool>
+
+    <tool id="linker">
+        <set id="lib_path" value="-L$(val)" />
+        <set id="lib" value="-l$(val)" />
+        <list id="default_libs">m rt pthread phobos2</list>
+        <list id="search_paths">/opt/dmd2/lib</list>
+        <set id="syntax">gcc -o $(output) $(lib_paths) $(inputs) $(libs)</set>
+    </tool>
+
+    <tool id="lib" cmd="ar rcs" >
+        <set id="output_ext" value=".a" />
+	</tool>
+</toolset>
+</toolsets>
+
+<sources name="xmlp" >
+    <source id="hash">
+        <import path="$(root)/src" />
+        <dir path="$(root)/src/hash" ext=".d" package="hash">
+            lookup util blockheap
+        </dir>
+    </source>
+    <source id="xmlplib">
+        <import path="$(root)/src" />
+        <dir path="$(root)/src/std/xmlp" ext=".d" package="std.xmlp">
+            arraydom buffer charinput coreprint
+            doctype dombuild dtdtype
+            domvisitor entitydata error
+            inputencode linkdom parseitem
+            slicedoc sliceparse source
+            subparse xmlchar xmlparse xmlsource
+        </dir>
+        <dir path="$(root)/src/std" ext=".d" package="std">
+            xml2
+        </dir>
+    </source>
+    <source id="sxml">
+        <import path="$(root)/test" />
+        <dir path="$(root)/test" ext=".d">
+            sxml
+        </dir>
+    </source>
+     <source id="sxml_lib">
+        <dir path="$(build)/lib" ext=".lib">
+            xmlp
+        </dir>
+    </source>
+</sources>
+
+<targets>
+    <target id="xmlplib" type="lib" dest="$(build)/lib" obj="$(build)/objd" combine="single" >
+        <sources> xmlplib </sources>
+    </target>
+    <target id="sxml" type="exe" dest="$(build)/bin" obj="$(build)/objd" combine="all" >
+        <output>sxml</output>
+        <libs></libs>
+        <import_paths></import_paths>
+        <sources> sxml xmlplib hash </sources>
+    </target>
+</targets>
+
+<builds>
+    <build id="debug">
+        <flags> -w -wi -debug -g</flags>
+    </build>
+    <build id="release">
+        <flags> -w -wi -release -0</flags>
+    </build>
+</builds>
+
+<?Lua
+
+--debug.sethook(print, "1")
+
+wkdir = "./"
+root="../.."
+
+build = "debug"
+target = "sxml"
+toolset = "linux_dmd"
+
+f = loadfile(wkdir .. "dmd_build.lua")
+f()
+
+?>
+
+
+</makette>

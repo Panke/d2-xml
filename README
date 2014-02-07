@@ -1,0 +1,36 @@
+
+This is the source of an xml parser for D programming language.
+
+Currently supports recent versions of D1, D1+tango, and D2.
+
+The parser supports XML 1.1 and namespaces.
+
+The sample applications are XmlConf.d , which can test against xml conformance test cases,
+and ElementHandler.d , which registers delegate callbacks to handle element start and completion events during parse.
+
+There is also an abbreviated xpath lookup support, and an xml based make tool called makette.
+
+I aim to do all my builds with makette, so the shell build scripts may be neglected.
+
+Source Directories
+------------------
+
+xmlp - xml parser, and limited xmldom and  xpath.
+
+inrange - Read encoded strings and streams and present them as an InputRange.
+
+makette - Windows and linux little make xml program to test the xpath nodeset extraction. 
+
+Build
+------
+
+xmlp -  build1.sh/.bat for D1 and D1 + tango,  buil2.sh/.bat for D2
+     -  now experimental makette.xml for issuing build commands using makette.
+
+makette -  build2.sh in makette folder.   There is only a D2 version. No plans for D1.
+
+
+Michael Rynn 
+michaelrynn@optusnet.com.au
+
+

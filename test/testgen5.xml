@@ -1,0 +1,48 @@
+<objects>
+
+<object id="object_1">
+    <attribute name="attribute1">valuea1</attribute>
+    <attribute name="attribute2">valueb1</attribute>
+    <attribute name="attribute3">valuec1</attribute>
+    <attribute name="attribute4">valued1</attribute>
+    <attribute name="attribute5">valuee1</attribute>
+    <attribute name="attribute6">valuef1</attribute>
+</object>
+
+<object id="object_2">
+    <attribute name="attribute1">valuea2</attribute>
+    <attribute name="attribute2">valueb2</attribute>
+    <attribute name="attribute3">valuec2</attribute>
+    <attribute name="attribute4">valued2</attribute>
+    <attribute name="attribute5">valuee2</attribute>
+    <attribute name="attribute6">valuef2</attribute>
+</object>
+
+<object id="object_3">
+    <attribute name="attribute1">valuea3</attribute>
+    <attribute name="attribute2">valueb3</attribute>
+    <attribute name="attribute3">valuec3</attribute>
+    <attribute name="attribute4">valued3</attribute>
+    <attribute name="attribute5">valuee3</attribute>
+    <attribute name="attribute6">valuef3</attribute>
+</object>
+
+<object id="object_4">
+    <attribute name="attribute1">valuea4</attribute>
+    <attribute name="attribute2">valueb4</attribute>
+    <attribute name="attribute3">valuec4</attribute>
+    <attribute name="attribute4">valued4</attribute>
+    <attribute name="attribute5">valuee4</attribute>
+    <attribute name="attribute6">valuef4</attribute>
+</object>
+
+<object id="object_5">
+    <attribute name="attribute1">valuea5</attribute>
+    <attribute name="attribute2">valueb5</attribute>
+    <attribute name="attribute3">valuec5</attribute>
+    <attribute name="attribute4">valued5</attribute>
+    <attribute name="attribute5">valuee5</attribute>
+    <attribute name="attribute6">valuef5</attribute>
+</object>
+
+</objects>

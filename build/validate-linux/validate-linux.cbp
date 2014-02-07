@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="validate-linux" />
+		<Option pch_mode="2" />
+		<Option compiler="dmd" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/validate-linux" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="dmd" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-debug" />
+					<Add option="-m64" />
+					<Add directory="../../" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/validate-linux" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="dmd" />
+				<Compiler>
+					<Add option="-O" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="../../alt/bomstring.d" />
+		<Unit filename="../../alt/buffer.d" />
+		<Unit filename="../../alt/gcstats.d" />
+		<Unit filename="../../alt/inputencode.d" />
+		<Unit filename="../../xml/dom/arrayt.d" />
+		<Unit filename="../../xml/dom/domt.d" />
+		<Unit filename="../../xml/dom/dtdt.d" />
+		<Unit filename="../../xml/ixml.d" />
+		<Unit filename="../../xml/jisx0208.d" />
+		<Unit filename="../../xml/parse/domt.d" />
+		<Unit filename="../../xml/parse/dxml.d" />
+		<Unit filename="../../xml/parse/input.d" />
+		<Unit filename="../../xml/test/conform.d" />
+		<Unit filename="../../xml/test/suite.d" />
+		<Unit filename="../../xml/util/print.d" />
+		<Unit filename="../../xml/util/read.d" />
+		<Unit filename="../../xml/util/visit.d" />
+		<Unit filename="../../xml/xmlchar.d" />
+		<Unit filename="../../xml/xmlerror.d" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

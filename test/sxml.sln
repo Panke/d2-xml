@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "sxml", "sxml.visualdproj", "{1BF895EF-AA8F-4AA8-9F2D-C9F33E5F6A51}"
+EndProject
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "conformance", "conformance.visualdproj", "{93BF3826-6AC4-4F14-9747-713973B449FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BF895EF-AA8F-4AA8-9F2D-C9F33E5F6A51}.Debug|Win32.ActiveCfg = Release|Win32
+		{1BF895EF-AA8F-4AA8-9F2D-C9F33E5F6A51}.Debug|Win32.Build.0 = Release|Win32
+		{1BF895EF-AA8F-4AA8-9F2D-C9F33E5F6A51}.Release|Win32.ActiveCfg = Release|Win32
+		{1BF895EF-AA8F-4AA8-9F2D-C9F33E5F6A51}.Release|Win32.Build.0 = Release|Win32
+		{93BF3826-6AC4-4F14-9747-713973B449FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{93BF3826-6AC4-4F14-9747-713973B449FA}.Debug|Win32.Build.0 = Debug|Win32
+		{93BF3826-6AC4-4F14-9747-713973B449FA}.Release|Win32.ActiveCfg = Release|Win32
+		{93BF3826-6AC4-4F14-9747-713973B449FA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

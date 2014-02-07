@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "speed_win_vs10", "speed-win-vs10.visualdproj", "{2D9554C8-BC9B-4046-AFAD-0142BD76F198}"
+EndProject
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "conform_vs10", "..\conform-win-vs10\conform-win-vs10.visualdproj", "{D8823E6F-73F5-4613-B21F-94ACBDA9E3C2}"
+EndProject
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "books_vs10", "..\books-win-vs10\books-win-vs10.visualdproj", "{0E3DDC3B-1575-4FD1-9AE7-6EFE667D8C1E}"
+EndProject
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "jabber_server", "..\jabber_server\jabber_server.visualdproj", "{FE5AF6E4-B297-4D3B-B6A0-98885B13C306}"
+EndProject
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "jabber_client", "..\jabber_client\jabber_client.visualdproj", "{0D79E74E-0CDC-4665-BFDF-5BC4AE4F4FFE}"
+EndProject
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "bigload_vs10", "..\bigload_vs10\bigload_vs10.visualdproj", "{62350579-AFA3-4193-BCC2-20DF0D191B6C}"
+EndProject
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "unicodedb_vs10", "..\unicodedb_vs10\unicodedb_vs10.visualdproj", "{16BA80E1-228F-4B60-A1B6-02E5DBA8B9F8}"
+EndProject
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "Failed to load makette", "..\makette\makette.visualdproj", "{11A05BA1-8929-4364-A516-9F77A5E2CDF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D9554C8-BC9B-4046-AFAD-0142BD76F198}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D9554C8-BC9B-4046-AFAD-0142BD76F198}.Release|Win32.ActiveCfg = Release|Win32
+		{2D9554C8-BC9B-4046-AFAD-0142BD76F198}.Release|Win32.Build.0 = Release|Win32
+		{D8823E6F-73F5-4613-B21F-94ACBDA9E3C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D8823E6F-73F5-4613-B21F-94ACBDA9E3C2}.Release|Win32.ActiveCfg = Release|Win32
+		{D8823E6F-73F5-4613-B21F-94ACBDA9E3C2}.Release|Win32.Build.0 = Release|Win32
+		{0E3DDC3B-1575-4FD1-9AE7-6EFE667D8C1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E3DDC3B-1575-4FD1-9AE7-6EFE667D8C1E}.Release|Win32.ActiveCfg = Release|Win32
+		{0E3DDC3B-1575-4FD1-9AE7-6EFE667D8C1E}.Release|Win32.Build.0 = Release|Win32
+		{FE5AF6E4-B297-4D3B-B6A0-98885B13C306}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FE5AF6E4-B297-4D3B-B6A0-98885B13C306}.Debug|Win32.Build.0 = Debug|Win32
+		{FE5AF6E4-B297-4D3B-B6A0-98885B13C306}.Release|Win32.ActiveCfg = Release|Win32
+		{FE5AF6E4-B297-4D3B-B6A0-98885B13C306}.Release|Win32.Build.0 = Release|Win32
+		{0D79E74E-0CDC-4665-BFDF-5BC4AE4F4FFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D79E74E-0CDC-4665-BFDF-5BC4AE4F4FFE}.Debug|Win32.Build.0 = Debug|Win32
+		{0D79E74E-0CDC-4665-BFDF-5BC4AE4F4FFE}.Release|Win32.ActiveCfg = Release|Win32
+		{0D79E74E-0CDC-4665-BFDF-5BC4AE4F4FFE}.Release|Win32.Build.0 = Release|Win32
+		{62350579-AFA3-4193-BCC2-20DF0D191B6C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62350579-AFA3-4193-BCC2-20DF0D191B6C}.Release|Win32.ActiveCfg = Release|Win32
+		{62350579-AFA3-4193-BCC2-20DF0D191B6C}.Release|Win32.Build.0 = Release|Win32
+		{16BA80E1-228F-4B60-A1B6-02E5DBA8B9F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{16BA80E1-228F-4B60-A1B6-02E5DBA8B9F8}.Release|Win32.ActiveCfg = Release|Win32
+		{16BA80E1-228F-4B60-A1B6-02E5DBA8B9F8}.Release|Win32.Build.0 = Release|Win32
+		{11A05BA1-8929-4364-A516-9F77A5E2CDF5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11A05BA1-8929-4364-A516-9F77A5E2CDF5}.Release|Win32.ActiveCfg = Release|Win32
+		{11A05BA1-8929-4364-A516-9F77A5E2CDF5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

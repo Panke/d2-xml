@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="../../std/xmlp/arraydom.d" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="8" zoom_2="0">
+		<Cursor1 position="340" topLine="0" />
+	</File>
+	<File name="../../std/xmlp/sliceparse.d" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor1 position="1115" topLine="88" />
+	</File>
+	<File name="../../alt/zstring.d" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor1 position="5484" topLine="224" />
+	</File>
+	<File name="../../std/xmlp/linkdom.d" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1160" topLine="0" />
+	</File>
+	<File name="../../std/xml1.d" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor1 position="51128" topLine="2060" />
+	</File>
+	<File name="../../std/xmlp/xmlparse.d" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor1 position="1094" topLine="0" />
+	</File>
+	<File name="../../std/xmlp/entitydata.d" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1487" topLine="22" />
+	</File>
+	<File name="../../std/xmlp/coreprint.d" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="839" topLine="8" />
+	</File>
+	<File name="../../std/xmlp/feeder.d" open="1" top="1" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="647" topLine="443" />
+	</File>
+	<File name="../../test/sxml.d" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor1 position="16554" topLine="565" />
+	</File>
+	<File name="../../std/xmlp/charinput.d" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="8489" topLine="0" />
+	</File>
+	<File name="../../std/xmlp/slicedoc.d" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1189" topLine="9" />
+	</File>
+	<File name="../../std/xmlp/doctype.d" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="65728" topLine="2176" />
+	</File>
+	<File name="../../std/xmlp/dtdvalidate.d" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="15557" topLine="443" />
+	</File>
+	<File name="../../std/xmlp/domvisitor.d" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="261" topLine="0" />
+	</File>
+	<File name="../../std/xmlp/error.d" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="2204" topLine="68" />
+	</File>
+	<File name="../../std/xmlp/dtdtype.d" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1452" topLine="59" />
+	</File>
+	<File name="../../std/xmlp/xmlvisitor.d" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1407" topLine="30" />
+	</File>
+	<File name="../../std/xml2.d" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1089" topLine="18" />
+	</File>
+	<File name="../../std/xmlp/parseitem.d" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor1 position="1029" topLine="36" />
+	</File>
+</CodeBlocks_layout_file>

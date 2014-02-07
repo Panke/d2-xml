@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{002A2DE9-8BB6-484D-9802-7E4AD4084715}") = "conform_vs12", "conform-win-vs12.visualdproj", "{D8823E6F-73F5-4613-B21F-94ACBDA9E3C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8823E6F-73F5-4613-B21F-94ACBDA9E3C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D8823E6F-73F5-4613-B21F-94ACBDA9E3C2}.Debug|Win32.Build.0 = Debug|Win32
+		{D8823E6F-73F5-4613-B21F-94ACBDA9E3C2}.Release|Win32.ActiveCfg = Release|Win32
+		{D8823E6F-73F5-4613-B21F-94ACBDA9E3C2}.Release|Win32.Build.0 = Release|Win32
+		{5011AE3F-7B24-4BAA-BD7E-193EFA889FBC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5011AE3F-7B24-4BAA-BD7E-193EFA889FBC}.Release|Win32.ActiveCfg = Release|Win32
+		{5011AE3F-7B24-4BAA-BD7E-193EFA889FBC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

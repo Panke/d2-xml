@@ -1,0 +1,918 @@
+# depslib dependency file v1.0
+1329358390 source:f:\bazaar\xml-d2-work\std\xmlp\xmlvisitor.d
+	<alt/zstring.d>
+	<alt/aahash.d>
+
+1329358352 h.d>
+
+1329311399 f:\bazaar\xml-d2-work\\alt\zstring.d
+
+1329306356 f:\bazaar\xml-d2-work\\hash\lookup.d
+
+1329358366 source:f:\bazaar\xml-d2-work\std\xmlp\entitydata.d
+	<alt/aahash.d>
+
+1329306356 f:\bazaar\xml-d2-work\\hash\arraymap.d
+
+1329351835 source:f:\bazaar\xml-d2-work\std\xmlp\xmlparse.d
+
+1329306356 source:f:\bazaar\xml-d2-work\std\xmlp\entity.d
+	<std/xmlp/subparse.d>
+	<std/xmlp/linkdom.d>
+	<std/xmlp/error.d>
+	<std/xmlp/dtdtype.d>
+	<std/xmlp/dtdvalidate.d>
+
+1329306356 dtdvalidate.d>
+
+1329306356 f:\bazaar\xml-d2-work\\std\xmlp\subparse.d
+	<std/stdint.d>
+
+1329355719 t.d>
+
+1329312426 f:\bazaar\xml-d2-work\\std\xmlp\linkdom.d
+
+1329306356 f:\bazaar\xml-d2-work\\std\xmlp\error.d
+
+1329312291 f:\bazaar\xml-d2-work\\std\xmlp\dtdtype.d
+
+1329312426 f:\bazaar\xml-d2-work\\std\xmlp\dtdvalidate.d
+
+1329306356 source:f:\bazaar\xml-d2-work\std\xmlp\xmlchar.d
+	<std/string.d>
+	<std/stdint.d>
+
+1329312426 source:f:\bazaar\xml-d2-work\std\xmlp\dtdvalidate.d
+	<std/xmlp/dtdtype.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/linkdom.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/error.d>
+	<alt/zstring.d>
+	<alt/zstring.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/array.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/entitydata.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/entity.d>
+	<hash/arraymap.d>
+	<std/ctype/isspace.d>
+	<std/ascii.d>
+
+1329312426 .d>
+
+1329312650 f:\bazaar\xml-d2-work\\std\xmlp\parseitem.d
+
+1329306356 f:\bazaar\xml-d2-work\\std\xmlp\buffer.d
+	<alt/zstring.d>
+
+1329306356 ng.d>
+
+1329312426 f:\bazaar\xml-d2-work\\std\xmlp\charinput.d
+
+1329306356 f:\bazaar\xml-d2-work\\std\xmlp\xmlchar.d
+
+1329312661 f:\bazaar\xml-d2-work\\std\xmlp\entitydata.d
+
+1329306356 f:\bazaar\xml-d2-work\\std\xmlp\entity.d
+
+1329306356 source:f:\bazaar\xml-d2-work\std\xmlp\validate.d
+
+1329358376 source:f:\bazaar\xml-d2-work\std\xmlp\dtdtype.d
+	<std/xmlp/parseitem.d>
+	<std/xmlp/linkdom.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/error.d>
+	<alt/zstring.d>
+	<alt/zstring.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/entitydata.d>
+	<std/ctype/isspace.d>
+	<std/ascii.d>
+	<alt/aahash.d>
+
+1329306356 source:f:\bazaar\xml-d2-work\std\xmlp\subparse.d
+	<std/stdint.d>
+	<std/xmlp/inputencode.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/error.d>
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/parseitem.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/array.d>
+	<std/stream.d>
+	<core/stdc/string.d>
+	<std/range.d>
+	<std/exception.d>
+	<std/utf.d>
+	<std/xmlp/dtdtype.d>
+	<std/xmlp/entitydata.d>
+	<std/variant.d>
+	<std/ctype.d>
+	<std/ascii.d>
+
+1329306356 f:\bazaar\xml-d2-work\\std\xmlp\inputencode.d
+
+1329306356 source:f:\bazaar\xml-d2-work\std\xmlp\domvisitor.d
+	<std/xmlp/linkdom.d>
+	<std/xmlp/parseitem.d>
+
+1329306356 parseitem.d>
+
+1329312426 source:f:\bazaar\xml-d2-work\std\xmlp\source.d
+	<std/xmlp/charinput.d>
+	<alt/zstring.d>
+	<alt/zstring.d>
+	<std/string.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/error.d>
+	<std/conv.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/xmlchar.d>
+
+1329312426 xmlchar.d>
+
+1329306356 source:f:\bazaar\xml-d2-work\std\xmlp\domparse.d
+	<std/xmlp/linkdom.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/error.d>
+	<std/xmlp/coreprint.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/xmlchar.d>
+	<std/stream.d>
+	<std/array.d>
+	<std/exception.d>
+	<std/variant.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/stdio.d>
+	<std/xmlp/dtdvalidate.d>
+	<std/xmlp/dtdtype.d>
+	<std/xmlp/doctype.d>
+	<alt/zstring.d>
+	<std/utf.d>
+
+1329306356 >
+
+1329312531 f:\bazaar\xml-d2-work\\std\xmlp\coreprint.d
+
+1329312426 f:\bazaar\xml-d2-work\\std\xmlp\doctype.d
+
+1329351912 source:f:\bazaar\xml-d2-work\std\xmlp\sliceparse.d
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/dtdtype.d>
+	<std/xmlp/subparse.d>
+	<alt/zstring.d>
+	<std/xmlp/error.d>
+	<std/utf.d>
+	<std/string.d>
+	<std/conv.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/entitydata.d>
+	<std/variant.d>
+
+1329351912 nt.d>
+
+1329312426 source:f:\bazaar\xml-d2-work\std\xmlp\doctype.d
+	<std/xmlp/linkdom.d>
+	<std/xmlp/error.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/source.d>
+	<alt/zstring.d>
+	<std/xmlp/entity.d>
+	<std/xmlp/feeder.d>
+	<std/stream.d>
+	<std/utf.d>
+	<std/string.d>
+	<std/array.d>
+	<std/exception.d>
+	<std/conv.d>
+	<std/path.d>
+	<std/file.d>
+	<std/variant.d>
+	<std/xmlp/dtdtype.d>
+	<std/xmlp/xmlparse.d>
+	<std/xmlp/entitydata.d>
+	<std/xmlp/dtdvalidate.d>
+	<std/stdio.d>
+
+1329312426 f:\bazaar\xml-d2-work\\std\xmlp\source.d
+
+1329312292 f:\bazaar\xml-d2-work\\std\xmlp\feeder.d
+
+1329350745 f:\bazaar\xml-d2-work\\std\xmlp\xmlparse.d
+
+1329312426 source:f:\bazaar\xml-d2-work\std\xmlp\slicedoc.d
+	<std/stdint.d>
+	<std/xmlp/error.d>
+	<std/xmlp/sliceparse.d>
+	<std/xmlp/linkdom.d>
+	<alt/zstring.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/xmlparse.d>
+	<std/xmlp/coreprint.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/variant.d>
+	<std/stream.d>
+
+1329312426 m.d>
+
+1329350216 f:\bazaar\xml-d2-work\\std\xmlp\sliceparse.d
+
+1329358360 source:f:\bazaar\xml-d2-work\std\xmlp\coreprint.d
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/parseitem.d>
+	<std/array.d>
+	<std/exception.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/stdint.d>
+	<alt/zstring.d>
+	<alt/aahash.d>
+
+1329312426 source:f:\bazaar\xml-d2-work\std\xmlp\charinput.d
+	<std/stdint.d>
+	<core/exception.d>
+	<std/xmlp/inputencode.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/error.d>
+	<std/stdint.d>
+	<std/utf.d>
+	<std/stream.d>
+	<std/string.d>
+	<std/conv.d>
+	<alt/zstring.d>
+
+1329306356 source:f:\bazaar\xml-d2-work\std\xmlp\buffer.d
+	<std/traits.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/utf.d>
+	<std/stdint.d>
+	<std/stdio.d>
+	<core/memory.d>
+	<alt/zstring.d>
+
+1329315634 source:f:\bazaar\xml-d2-work\std\xmlp\arraydom.d
+	<alt/zstring.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/sliceparse.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/coreprint.d>
+	<std/xmlp/charinput.d>
+	<core/stdc/string.d>
+	<std/string.d>
+	<std/conv.d>
+	<std/array.d>
+	<std/exception.d>
+	<std/stream.d>
+	<std/xmlp/xmlvisitor.d>
+
+1329315634 xmlvisitor.d>
+
+1329306356 f:\bazaar\xml-d2-work\\std\xmlp\xmlvisitor.d
+
+1329313596 source:f:\bazaar\xml-d2-work\std\xml2.d
+	<std/xmlp/parseitem.d>
+	<std/xmlp/domvisitor.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/feeder.d>
+	<std/xmlp/xmlvisitor.d>
+	<std/xmlp/sliceparse.d>
+	<std/xmlp/slicedoc.d>
+	<std/xmlp/domparse.d>
+	<std/xmlp/xmlvisitor.d>
+	<std/xmlp/xmlparse.d>
+	<std/xmlp/doctype.d>
+	<std/xmlp/subparse.d>
+
+1329313596 subparse.d>
+
+1329306356 f:\bazaar\xml-d2-work\\std\xmlp\domvisitor.d
+
+1329312426 f:\bazaar\xml-d2-work\\std\xmlp\slicedoc.d
+
+1329306356 f:\bazaar\xml-d2-work\\std\xmlp\domparse.d
+
+1329358352 source:f:\bazaar\xml-d2-work\std\xmlp\parseitem.d
+	<std/xmlp/xmlchar.d>
+	<std/string.d>
+	<std/stdint.d>
+	<core/memory.d>
+	<alt/zstring.d>
+	<std/ctype.d>
+	<std/ascii.d>
+	<alt/aahash.d>
+
+1329306356 source:f:\bazaar\xml-d2-work\std\xmlp\numparse.d
+	<std/xmlp/parseitem.d>
+
+1329312426 source:f:\bazaar\xml-d2-work\std\xmlp\linkdom.d
+	<std/stdint.d>
+	<std/conv.d>
+	<std/array.d>
+	<alt/zstring.d>
+	<std/string.d>
+	<core/memory.d>
+	<core/stdc/string.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/coreprint.d>
+	<std/xmlp/dtdvalidate.d>
+	<std/xmlp/entitydata.d>
+	<std/stream.d>
+	<std/exception.d>
+	<std/variant.d>
+	<Node.d>
+
+1329312426 
+
+1329306356 source:f:\bazaar\xml-d2-work\std\xmlp\inputencode.d
+	<core/exception.d>
+	<std/system.d>
+	<std/stream.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/traits.d>
+	<std/exception.d>
+
+1329306356 tion.d>
+
+1329312292 source:f:\bazaar\xml-d2-work\std\xmlp\feeder.d
+	<std/xmlp/charinput.d>
+	<alt/zstring.d>
+	<std/string.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/error.d>
+	<std/conv.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/xmlchar.d>
+	<std/utf.d>
+	<std/xmlp/entitydata.d>
+
+1329312292 entitydata.d>
+
+1329306356 source:f:\bazaar\xml-d2-work\std\xmlp\error.d
+	<std/conv.d>
+	<std/string.d>
+
+1329306356 g.d>
+
+1329360038 source:f:\bazaar\xml-d2-work\alt\zstring.d
+	<std/utf.d>
+	<std/string.d>
+	<std/stdio.d>
+	<std/stream.d>
+	<std/stdint.d>
+	<std/traits.d>
+	<std/c/string.d>
+	<std/conv.d>
+	<core/memory.d>
+	<core/memory.d>
+
+1329360038 ry.d>
+
+1329345687 source:f:\bazaar\xml-d2-work\test\sxml.d
+	<core/memory.d>
+	<std/stdio.d>
+	<std/datetime.d>
+	<std/string.d>
+	<std/conv.d>
+	<core/memory.d>
+	<std/variant.d>
+	<std/random.d>
+	<std/file.d>
+	<std/xmlp/arraydom.d>
+	<std/xmlp/linkdom.d>
+
+1329345687 linkdom.d>
+
+1329312360 f:\bazaar\xml-d2-work\\alt\lookup.d
+
+1329311399 source:f:\bazaar\xml-d2-work\alt\util.d
+	<std/random.d>
+	<std/exception.d>
+	<std/stdint.d>
+
+1329312360 source:f:\bazaar\xml-d2-work\alt\lookup.d
+	<alt/blockheap.d>
+	<alt/util.d>
+	<std/variant.d>
+	<std/stdint.d>
+	<std/traits.d>
+	<core/stdc/stdarg.d>
+	<core/stdc/string.d>
+	<core/stdc/stdio.d>
+	<core/stdc/stdlib.d>
+
+1329355513 /stdlib.d>
+
+1329311399 f:\bazaar\xml-d2-work\\alt\blockheap.d
+
+1329311399 f:\bazaar\xml-d2-work\\alt\util.d
+
+1329355549 source:f:\bazaar\xml-d2-work\alt\blockheap.d
+	<std/stdint.d>
+	<core/stdc/stdarg.d>
+	<core/stdc/string.d>
+	<core/stdc/stdio.d>
+	<core/stdc/stdlib.d>
+
+1329315634 f:\bazaar\xml-d2-work\\std\xmlp\arraydom.d
+
+1329360038 f:\bazaar\xml-d2-work\alt\zstring.d
+
+1329312360 f:\bazaar\xml-d2-work\alt\lookup.d
+
+1329306356 f:\bazaar\xml-d2-work\std\xmlp\subparse.d
+	<std/stdint.d>
+
+1329312426 f:\bazaar\xml-d2-work\std\xmlp\linkdom.d
+
+1329306356 f:\bazaar\xml-d2-work\std\xmlp\error.d
+
+1329358376 f:\bazaar\xml-d2-work\std\xmlp\dtdtype.d
+
+1329312426 f:\bazaar\xml-d2-work\std\xmlp\dtdvalidate.d
+
+1329358352 f:\bazaar\xml-d2-work\std\xmlp\parseitem.d
+
+1329312426 f:\bazaar\xml-d2-work\std\xmlp\charinput.d
+
+1329306356 f:\bazaar\xml-d2-work\std\xmlp\xmlchar.d
+
+1329358366 f:\bazaar\xml-d2-work\std\xmlp\entitydata.d
+
+1329306356 f:\bazaar\xml-d2-work\std\xmlp\entity.d
+
+1329306356 f:\bazaar\xml-d2-work\std\xmlp\inputencode.d
+
+1329358360 f:\bazaar\xml-d2-work\std\xmlp\coreprint.d
+
+1329312426 f:\bazaar\xml-d2-work\std\xmlp\doctype.d
+
+1329312426 f:\bazaar\xml-d2-work\std\xmlp\source.d
+
+1329312292 f:\bazaar\xml-d2-work\std\xmlp\feeder.d
+
+1329351835 f:\bazaar\xml-d2-work\std\xmlp\xmlparse.d
+
+1329351912 f:\bazaar\xml-d2-work\std\xmlp\sliceparse.d
+
+1329358390 f:\bazaar\xml-d2-work\std\xmlp\xmlvisitor.d
+
+1329306356 f:\bazaar\xml-d2-work\std\xmlp\domvisitor.d
+
+1329312426 f:\bazaar\xml-d2-work\std\xmlp\slicedoc.d
+
+1329306356 f:\bazaar\xml-d2-work\std\xmlp\domparse.d
+
+1329315634 f:\bazaar\xml-d2-work\std\xmlp\arraydom.d
+
+1329355549 f:\bazaar\xml-d2-work\alt\blockheap.d
+
+1329311399 f:\bazaar\xml-d2-work\alt\util.d
+
+1329358447 source:f:\bazaar\xml-d2-work\std\xml1.d
+	<std/xml.d>
+	<std/stdio.d>
+	<std/string.d>
+	<std/xml.d>
+	<std/stdio.d>
+	<std/string.d>
+	<std/array.d>
+	<std/ascii.d>
+	<std/string.d>
+	<std/encoding.d>
+
+1329358447 ing.d>
+
+1329355513 f:\bazaar\xml-d2-work\alt\aahash.d
+
+1329355513 source:f:\bazaar\xml-d2-work\alt\aahash.d
+	<alt/blockheap.d>
+	<alt/hashutil.d>
+	<std/stdint.d>
+	<std/traits.d>
+	<core/stdc/stdarg.d>
+	<core/stdc/string.d>
+	<core/stdc/stdio.d>
+	<core/stdc/stdlib.d>
+
+1329355719 f:\bazaar\xml-d2-work\alt\hashutil.d
+
+1329355719 source:f:\bazaar\xml-d2-work\alt\hashutil.d
+	<std/random.d>
+	<std/exception.d>
+	<std/stdint.d>
+
+1329882399 source:/home/michael/D/xml-d2-work/std/xmlp/entity.d
+	<std/xmlp/subparse.d>
+	<std/xmlp/linkdom.d>
+	<std/xmlp/error.d>
+	<std/xmlp/dtdtype.d>
+	<std/xmlp/dtdvalidate.d>
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/subparse.d
+	<std/stdint.d>
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/linkdom.d
+
+1329882399 /home/michael/D/xml-d2-work/std/xmlp/error.d
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/dtdtype.d
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/dtdvalidate.d
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/arraydom.d
+	<alt/zstring.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/sliceparse.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/coreprint.d>
+	<std/xmlp/charinput.d>
+	<core/stdc/string.d>
+	<std/string.d>
+	<std/conv.d>
+	<std/array.d>
+	<std/exception.d>
+	<std/stream.d>
+	<std/xmlp/xmlvisitor.d>
+	<alt/gcstats.d>
+
+1331638707 /home/michael/D/xml-d2-work/alt/zstring.d
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/sliceparse.d
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/parseitem.d
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/coreprint.d
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/charinput.d
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/xmlvisitor.d
+
+1331638707 /home/michael/D/xml-d2-work/alt/gcstats.d
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/sliceparse.d
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/dtdtype.d>
+	<std/xmlp/subparse.d>
+	<alt/zstring.d>
+	<std/xmlp/error.d>
+	<std/utf.d>
+	<std/string.d>
+	<std/conv.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/entitydata.d>
+	<std/variant.d>
+	<alt/arraymap.d>
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/xmlchar.d
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/entitydata.d
+
+1331638707 /home/michael/D/xml-d2-work/alt/arraymap.d
+
+1331638707 source:/home/michael/D/xml-d2-work/alt/zstring.d
+	<std/utf.d>
+	<std/string.d>
+	<std/stdio.d>
+	<std/stream.d>
+	<std/stdint.d>
+	<std/traits.d>
+	<std/c/string.d>
+	<std/conv.d>
+	<std/variant.d>
+	<core/memory.d>
+	<core/memory.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/linkdom.d
+	<std/stdint.d>
+	<std/conv.d>
+	<std/array.d>
+	<alt/zstring.d>
+	<std/string.d>
+	<core/memory.d>
+	<core/stdc/string.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/coreprint.d>
+	<std/xmlp/dtdvalidate.d>
+	<std/xmlp/entitydata.d>
+	<std/stream.d>
+	<std/exception.d>
+	<alt/arraymap.d>
+	<alt/gcstats.d>
+	<std/variant.d>
+	<Node.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/xmlchar.d
+	<std/string.d>
+	<std/stdint.d>
+
+1331640238 source:/home/michael/D/xml-d2-work/std/xml1.d
+	<std/array.d>
+	<std/ascii.d>
+	<std/string.d>
+	<std/encoding.d>
+	<alt/zstring.d>
+	<std/stdint.d>
+	<std/conv.d>
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/sliceparse.d>
+	<core/memory.d>
+	<alt/gcstats.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/xmlparse.d
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/inputencode.d
+	<core/exception.d>
+	<std/system.d>
+	<std/stream.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/traits.d>
+	<std/stdint.d>
+	<alt/zstring.d>
+	<std/exception.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/entitydata.d
+	<alt/arraymap.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/alt/aahash.d
+	<alt/blockheap.d>
+	<alt/hashutil.d>
+	<std/stdint.d>
+	<std/traits.d>
+	<core/stdc/stdarg.d>
+	<core/stdc/string.d>
+	<core/stdc/stdio.d>
+	<core/stdc/stdlib.d>
+
+1329882399 /home/michael/D/xml-d2-work/alt/blockheap.d
+
+1329882399 /home/michael/D/xml-d2-work/alt/hashutil.d
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/domparse.d
+	<std/xmlp/linkdom.d>
+	<std/xmlp/elemvalidate.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/error.d>
+	<std/xmlp/coreprint.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/xmlchar.d>
+	<std/stream.d>
+	<std/array.d>
+	<std/exception.d>
+	<std/variant.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/stdio.d>
+	<std/xmlp/dtdvalidate.d>
+	<std/xmlp/dtdtype.d>
+	<std/xmlp/doctype.d>
+	<alt/zstring.d>
+	<std/utf.d>
+	<alt/gcstats.d>
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/elemvalidate.d
+
+1329882399 /home/michael/D/xml-d2-work/std/xmlp/doctype.d
+
+1329882399 source:/home/michael/D/xml-d2-work/alt/blockheap.d
+	<std/stdint.d>
+	<core/stdc/stdarg.d>
+	<core/stdc/string.d>
+	<core/stdc/stdio.d>
+	<core/stdc/stdlib.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/coreprint.d
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/parseitem.d>
+	<std/array.d>
+	<std/exception.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/stdint.d>
+	<alt/zstring.d>
+	<alt/arraymap.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/validate.d
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/subparse.d
+	<std/stdint.d>
+	<std/xmlp/inputencode.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/error.d>
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/parseitem.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/array.d>
+	<std/stream.d>
+	<core/stdc/string.d>
+	<std/range.d>
+	<std/exception.d>
+	<std/utf.d>
+	<std/xmlp/dtdtype.d>
+	<std/xmlp/entitydata.d>
+	<std/variant.d>
+	<std/ctype.d>
+	<std/ascii.d>
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/inputencode.d
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/feeder.d
+	<std/xmlp/charinput.d>
+	<alt/zstring.d>
+	<std/string.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/error.d>
+	<std/conv.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/xmlchar.d>
+	<std/utf.d>
+	<std/xmlp/entitydata.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/test/sxml.d
+	<core/memory.d>
+	<std/stdio.d>
+	<std/datetime.d>
+	<std/string.d>
+	<std/conv.d>
+	<core/memory.d>
+	<std/variant.d>
+	<std/random.d>
+	<std/file.d>
+	<std/xmlp/arraydom.d>
+	<std/xmlp/linkdom.d>
+	<alt/gcstats.d>
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/arraydom.d
+
+1329882399 source:/home/michael/D/xml-d2-work/alt/hashutil.d
+	<std/random.d>
+	<std/exception.d>
+	<std/stdint.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/charinput.d
+	<std/stdint.d>
+	<core/exception.d>
+	<std/xmlp/inputencode.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/error.d>
+	<std/stdint.d>
+	<std/utf.d>
+	<std/stream.d>
+	<std/string.d>
+	<std/conv.d>
+	<alt/zstring.d>
+	<std/stdio.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/slicedoc.d
+	<std/stdint.d>
+	<std/xmlp/error.d>
+	<std/xmlp/sliceparse.d>
+	<std/xmlp/linkdom.d>
+	<alt/zstring.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/xmlparse.d>
+	<std/xmlp/coreprint.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/variant.d>
+	<std/stream.d>
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/xmlparse.d
+
+1329882399 source:/home/michael/D/xml-d2-work/std/xmlp/doctype.d
+	<std/xmlp/linkdom.d>
+	<std/xmlp/error.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/source.d>
+	<alt/zstring.d>
+	<std/xmlp/entity.d>
+	<std/xmlp/feeder.d>
+	<std/stream.d>
+	<std/utf.d>
+	<std/string.d>
+	<std/array.d>
+	<std/exception.d>
+	<std/conv.d>
+	<std/path.d>
+	<std/file.d>
+	<std/variant.d>
+	<std/xmlp/dtdtype.d>
+	<std/xmlp/xmlparse.d>
+	<std/xmlp/entitydata.d>
+	<std/xmlp/dtdvalidate.d>
+	<std/stdio.d>
+
+1329882399 /home/michael/D/xml-d2-work/std/xmlp/entity.d
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/feeder.d
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/dtdvalidate.d
+	<std/xmlp/dtdtype.d>
+	<std/xmlp/parseitem.d>
+	<std/xmlp/linkdom.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/error.d>
+	<alt/zstring.d>
+	<alt/zstring.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/array.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/entitydata.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/entity.d>
+	<hash/arraymap.d>
+	<std/ctype/isspace.d>
+	<std/ascii.d>
+
+1329882399 source:/home/michael/D/xml-d2-work/std/xmlp/domvisitor.d
+	<std/xmlp/linkdom.d>
+	<std/xmlp/parseitem.d>
+
+1329882399 source:/home/michael/D/xml-d2-work/std/xmlp/error.d
+	<std/conv.d>
+	<std/string.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/dtdtype.d
+	<std/xmlp/parseitem.d>
+	<std/xmlp/subparse.d>
+	<std/xmlp/error.d>
+	<alt/zstring.d>
+	<alt/zstring.d>
+	<std/conv.d>
+	<std/string.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/xmlchar.d>
+	<std/xmlp/entitydata.d>
+	<std/ctype/isspace.d>
+	<std/ascii.d>
+	<alt/arraymap.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/xmlvisitor.d
+	<alt/zstring.d>
+	<alt/gcstats.d>
+	<std/stdio.d>
+	<alt/arraymap.d>
+
+1329882399 source:/home/michael/D/xml-d2-work/std/xml2.d
+	<std/xmlp/parseitem.d>
+	<std/xmlp/domvisitor.d>
+	<std/xmlp/charinput.d>
+	<std/xmlp/feeder.d>
+	<std/xmlp/xmlvisitor.d>
+	<std/xmlp/sliceparse.d>
+	<std/xmlp/slicedoc.d>
+	<std/xmlp/domparse.d>
+	<std/xmlp/xmlvisitor.d>
+	<std/xmlp/xmlparse.d>
+	<std/xmlp/doctype.d>
+	<std/xmlp/subparse.d>
+
+1329882399 /home/michael/D/xml-d2-work/std/xmlp/domvisitor.d
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/slicedoc.d
+
+1331638707 /home/michael/D/xml-d2-work/std/xmlp/domparse.d
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/parseitem.d
+	<std/xmlp/xmlchar.d>
+	<std/string.d>
+	<std/stdint.d>
+	<core/memory.d>
+	<alt/zstring.d>
+	<std/ctype.d>
+	<std/ascii.d>
+	<alt/arraymap.d>
+
+1331638707 source:/home/michael/D/xml-d2-work/std/xmlp/elemvalidate.d
+

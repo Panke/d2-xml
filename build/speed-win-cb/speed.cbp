@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="speed" />
+		<Option pch_mode="2" />
+		<Option compiler="dmd" />
+		<Build>
+			<Target title="debug">
+				<Option output="bin/debug/speed" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../.." />
+				<Option object_output="obj/debug/" />
+				<Option type="1" />
+				<Option compiler="dmd" />
+				<Option parameters="input books.xml" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-debug" />
+					<Add directory="../../" />
+				</Compiler>
+			</Target>
+			<Target title="release">
+				<Option output="bin/release/speed" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../.." />
+				<Option object_output="obj/release/" />
+				<Option type="1" />
+				<Option compiler="dmd" />
+				<Option parameters="input books.xml" />
+				<Compiler>
+					<Add option="-release" />
+					<Add option="-O" />
+					<Add option="-property -noboundscheck" />
+					<Add directory="../.." />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="../../alt/aahash.d" />
+		<Unit filename="../../alt/blockheap.d" />
+		<Unit filename="../../alt/hashutil.d" />
+		<Unit filename="../../alt/zstring.d" />
+		<Unit filename="../../std/xml1.d" />
+		<Unit filename="../../std/xml2.d" />
+		<Unit filename="../../std/xmlp/arraydom.d" />
+		<Unit filename="../../std/xmlp/charinput.d" />
+		<Unit filename="../../std/xmlp/coreprint.d" />
+		<Unit filename="../../std/xmlp/doctype.d" />
+		<Unit filename="../../std/xmlp/domparse.d" />
+		<Unit filename="../../std/xmlp/domvisitor.d" />
+		<Unit filename="../../std/xmlp/dtdtype.d" />
+		<Unit filename="../../std/xmlp/dtdvalidate.d" />
+		<Unit filename="../../std/xmlp/elemvalidate.d" />
+		<Unit filename="../../std/xmlp/entity.d" />
+		<Unit filename="../../std/xmlp/entitydata.d" />
+		<Unit filename="../../std/xmlp/error.d" />
+		<Unit filename="../../std/xmlp/feeder.d" />
+		<Unit filename="../../std/xmlp/inputencode.d" />
+		<Unit filename="../../std/xmlp/linkdom.d" />
+		<Unit filename="../../std/xmlp/parseitem.d" />
+		<Unit filename="../../std/xmlp/slicedoc.d" />
+		<Unit filename="../../std/xmlp/sliceparse.d" />
+		<Unit filename="../../std/xmlp/subparse.d" />
+		<Unit filename="../../std/xmlp/validate.d" />
+		<Unit filename="../../std/xmlp/xmlchar.d" />
+		<Unit filename="../../std/xmlp/xmlparse.d" />
+		<Unit filename="../../std/xmlp/xmlvisitor.d" />
+		<Unit filename="../../test/sxml.d" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

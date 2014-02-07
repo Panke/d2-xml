@@ -1,0 +1,2 @@
+#!/bin/bash
+gdc -o sxml-gdc -frelease "./sxml/sxml.d" "./std/xmlp/array.d" "./std/xmlp/source.d" "./std/xmlp/sliceparse.d" "./std/xmlp/slicedoc.d" "./std/xmlp/coreparse.d" "./std/xmlp/arraydom.d" "./std/xmlp/charinput.d" "./std/xmlp/coreprint.d" "./std/xmlp/doctype.d" "./std/xmlp/domparse.d" "./std/xmlp/domvisitor.d" "./std/xmlp/inputencode.d" "./std/xmlp/linkdom.d" "./std/xmlp/numparse.d" "./std/xmlp/subparse.d" "./std/xmlp/xmlchar.d" "./std/xmlp/parseitem.d" "./std/xml2.d" -Wl,-lrt
